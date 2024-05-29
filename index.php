@@ -4,7 +4,7 @@
  * Este script PHP implementa una calculadora simple con funciones para realizar operaciones de suma y resta.
  * @package Calculadora
  * @autor Juan Antonio Cabeza Guisado
- * @version 1.0
+ * @version 1.1
  */
 /**
  * Suma dos números.
@@ -29,8 +29,8 @@ function restar($a, $b) {
     return $a - $b;
 }
 // Ejemplos de uso de las funciones
-echo "Suma de 5 y 3: " . sumar(5, 3) . "\n"; // Salida: 8
-echo "Resta de 5 y 3: " . restar(5, 3) . "\n"; // Salida: 2
+echo "Suma de 5 y 3: " . sumar(5, 5) . "\n"; // Salida: 10
+echo "Resta de 5 y 3: " . restar(5, 5) . "\n"; // Salida: 0
 /**
  * @internal Este es un comentario interno que solo debería ser visible en la documentación para desarrolladores.
  */
